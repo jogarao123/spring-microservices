@@ -8,7 +8,7 @@ public class CatalogApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CatalogApplication.class, args);
-		System.out.println("hello ");
+		System.out.println("hello 1");
 	}
 
 }
