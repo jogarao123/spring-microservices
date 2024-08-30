@@ -3,7 +3,7 @@ name: Catalog Service
 on:
   push:
     paths:
-      - catalog-service/**
+      - catalog/**
     branches:
       - '**'
 
@@ -12,7 +12,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      working-directory: ./catalog-service
+      working-directory: ./catalog
     defaults:
       run:
         working-directory: ${{ env.working-directory }}
